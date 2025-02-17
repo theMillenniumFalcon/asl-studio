@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useCallback, useEffect, useRef, useState } from "react"
+import React, { useState, useRef, useEffect, useCallback } from "react"
 import "@tensorflow/tfjs-backend-webgl"
 import * as handpose from "@tensorflow-models/handpose"
 import * as tf from "@tensorflow/tfjs"
