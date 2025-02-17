@@ -1,7 +1,14 @@
+import { Navbar } from "@/components/navbar";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24">
-      <h1 className="text-4xl font-bold">ASL Studio</h1>
-    </main>
+    <div className="grid h-screen w-full">
+      <div className="flex flex-col">
+        <Navbar />
+        <main className="flex-1">
+          <h1 className="text-4xl font-bold">ASL Studio</h1>
+        </main>
+      </div>
+    </div>
   )
 }
